@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remove-project name="bootable/recovery" />
+  
+  <project path="bootable/recovery" name="amitbagaria/android_bootable_recovery" remote="github" revision="gingerbread"/>
+  
+  <!-- Device Repos -->
+  <project path="device/samsung/gravitysmart" name="doadin/android_device_samsung_gravitysmart" remote="github" revision="Froyo"/>
+  <project path="vendor/samsung/gravitysmart" name="doadin/android_vendor_samsung_gravitysmart" remote="github" revision="Froyo"/>
+  
+  <!-- Maybe One Day 
+  <project path="kernel/samsung/gravitysmart" name="arco/samsung-kernel-msm7x30" remote="github" revision="cm-10.1"/> 
+  -->
+   
+  
+</manifest>
